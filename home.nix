@@ -1,8 +1,8 @@
 { config, pkgs, inputs,... }:
 
 {
-  home.username = "yourusername";
-  home.homeDirectory = "/home/yourusername";
+  home.username = "hakkero";
+  home.homeDirectory = "/home/hakkero";
 
   imports = [
     inputs.dms.homeModules.dank-material-shell
